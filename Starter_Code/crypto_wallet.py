@@ -72,3 +72,4 @@ def send_transaction(account, to, wage):
 
     # Send the signed transactions
     return w3.eth.sendRawTransaction(signed_tx.rawTransaction)
+    print(wei_balance)
